@@ -1,0 +1,13 @@
+# https://github.com/nashman100/assignment
+language: node_js
+
+node_js:
+  - "10.9.0"
+
+cache: npm
+
+before_install:
+  - ls -la
+  - mkdir public
+  - npm install
+  - ls -la
