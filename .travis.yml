@@ -13,3 +13,8 @@ before_install:
   - ls -la
   - npm config set spin false
   - npm i -g now 
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true
