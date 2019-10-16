@@ -11,5 +11,5 @@ before_install:
   - mkdir public
   - npm install
   - ls -la
-  - "npm config set spin false"
+  - npm config set spin false
   - npm i -g now 
